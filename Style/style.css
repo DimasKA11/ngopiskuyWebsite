@@ -99,7 +99,8 @@ header.shadow {
 .home {
     width: 100%;
     min-height: 100vh;
-    background-color: black;
+    background-image: url("./Assets/img/bg1.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./Assets/img/bg1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -141,7 +142,10 @@ header.shadow {
 }
 
 .about-img .img {
+    width: 50%;
+    height: auto;
     border-radius: 0.5rem;
+   
 }
 
 .about-text h2 {
@@ -235,6 +239,7 @@ header.shadow {
 
 .education-container .box p {
     font: 0.9rem;
+    text-align: justify;
 }
 
 .education-container .box h2 {
@@ -244,9 +249,9 @@ header.shadow {
 }
 
 .education-container .box img {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
+    width: 360px;
+    height: 360px;
+    border-radius: 90%;
     object-fit: cover;
 }
 
