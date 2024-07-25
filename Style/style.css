@@ -139,6 +139,7 @@ header.shadow {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(17rem, auto));
     gap: 1.5rem;
+    align-items: center;
 }
 
 .about-img .img {
@@ -156,6 +157,7 @@ header.shadow {
 .about-text p {
     font-size: 0.9rem;
     margin: 0.5rem 0 1.1rem;
+    text-align: justify;
 }
 
 .heading {
@@ -249,8 +251,8 @@ header.shadow {
 }
 
 .education-container .box img {
-    width: 360px;
-    height: 360px;
+    width: 160px;
+    height: 160px;
     border-radius: 90%;
     object-fit: cover;
 }
